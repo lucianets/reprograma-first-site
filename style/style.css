@@ -52,8 +52,24 @@ a {
 
 .btn-roxo {
     color: #7E459B;
-    border: 1px solid #7E459B;
+    border: 1px solid;
     font-weight: bold;
+    background-color: white;
+}
+
+.bnt, .btn-roxo:hover{
+    color: #C78C19;
+    border-color: #d83535;
+}
+.bnt, .btn-branco:hover{
+    color: #C78C19;
+    border-color: #d83535;
+}
+.bnt,.btn-roxo:active{
+    border-color: #d83535;
+}
+.bnt, .btn-branco:active{
+    border-color: #d83535;
 }
 
 /* UTILIDADES */
@@ -99,13 +115,13 @@ a {
     display: inline-block; 
     width: 600px;
     height: 350px;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 .sobre-habilidades {
-    margin-left: 20rem;
+    margin-left: 30rem;
     position: absolute;
-    font-size: 21px;
-    padding: 3em 0;
+    font-size: 20px;
+    padding: 2em 0;
 }
 
 .sobre-habilidades__lista {
@@ -129,12 +145,21 @@ a {
     color: #7E459B;
     border: 1px solid #000000;
 }
-
+.redes-sociais__link:hover{
+    color: #C78C19;
+    border-color:#d83535;
+}
+.redes-sociais__link:active{
+    border-color: #d83535;
+}
 .redes-sociais_img, .redes-sociais_titulo{
     display: inline-block;
     margin-bottom: .5rem;
     width: 50%;
     text-align: center;
+}
+.footer_copyright{
+    margin-top: 3rem;
 }
 .footer__copy-texto {
     color: #c4c4c4;
