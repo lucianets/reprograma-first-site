@@ -143,6 +143,7 @@ a {
     font-weight: bold;
     background-color: #6E70FF;
     color: white;
+    border-radius: 10px;
     
 }
 .redes-sociais__link:hover{
