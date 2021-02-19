@@ -52,7 +52,6 @@ a {
 
 .btn-roxo {
     color: #7E459B;
-    border: 1px solid;
     font-weight: bold;
     background-color: white;
 }
@@ -99,7 +98,7 @@ a {
 
 .sobre__titulo {
     font-size: 4rem;
-    color: #C4C4C4;
+    color: #A68B16;
 }
 
 .sobre-descricao, .sobre-habilidades {
@@ -142,15 +141,16 @@ a {
     padding: 2rem 0;
     text-align: center;
     font-weight: bold;
-    color: #7E459B;
-    border: 1px solid #000000;
+    background-color: #6E70FF;
+    color: white;
+    
 }
 .redes-sociais__link:hover{
-    color: #C78C19;
-    border-color:#d83535;
+    color: #A6A516;
+    border-color: #F2F250;
 }
 .redes-sociais__link:active{
-    border-color: #d83535;
+    border-color: #F2F250;
 }
 .redes-sociais_img, .redes-sociais_titulo{
     display: inline-block;
